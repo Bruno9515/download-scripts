@@ -1,5 +1,29 @@
 # download-scripts
-Scripts para descargar datos de TIGGE para San Miguel de Tucumán
-tigge.py -> descargar de todos los modelos
-era5.py -> descargar datos de era5
-parquet_csv.py -> pasar archivos de parquet a csv 
+# Descarga de Datos Meteorológicos
+
+Scripts para descargar datos meteorológicos de **San Miguel de Tucumán**.
+
+## Scripts
+
+### `tigge.py`
+Descarga datos TIGGE de múltiples modelos meteorológicos.
+
+### `era5.py`
+Descarga datos de reanálisis ERA5.
+
+### `parquet_csv.py`
+Convierte archivos `.parquet` a `.csv`.
+
+---
+
+## Fuentes de datos
+
+- TIGGE
+- ERA5
+- ECMWF
+
+---
+
+## Objetivo
+
+Automatizar la descarga y transformación de datos meteorológicos para análisis y procesamiento posterior.
